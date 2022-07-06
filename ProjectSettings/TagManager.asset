@@ -56,3 +56,9 @@ TagManager:
   - name: Lapms
     uniqueID: 2092962675
     locked: 0
+  - name: Player
+    uniqueID: 3335506267
+    locked: 0
+  - name: UI
+    uniqueID: 3455790883
+    locked: 0
