@@ -1,0 +1,5086 @@
+fileFormatVersion: 2
+guid: 27e857bff09ad504a9a5495544488292
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba0de19f44dcf9449e3171424f92872
+      internalID: 1655166613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a58d10c17e19a45a4f9a884713d5ea
+      internalID: 1909136236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad5d497f05b6f4c91ddb105d3180d2
+      internalID: -48171053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d23ad0378acf4297491ae181f645e
+      internalID: -1385345768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4661ebc9b292e943b6f9e8b4ec2d125
+      internalID: 1355354638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1a4a2fd299d064cbb64654f42e1206
+      internalID: 1402787962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414d0cc61fd9cf94eb46f7b0393eacce
+      internalID: -1250732016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cb02ca14fd5594fa5f09171451a168
+      internalID: 1980694530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013fc62a59deb64db2b1ffc6893d8e9
+      internalID: 282240374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a0264bd34097043bbda326aff8fa3d
+      internalID: -1536527490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dcbe6587d474a49a23f882e9575a79
+      internalID: 430988271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2c06b71f77b18479cb21605ec7854c
+      internalID: 1550863786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e025971ae3f5647996e7d1dd46547b
+      internalID: 57275155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1956900ec7f5ce4d812abf97004dc02
+      internalID: 1485761955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f121c65525d2704394eb4d539f4393a
+      internalID: 898365462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7424de4014dac4649b46d5001049c846
+      internalID: -1168605522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922405b6624163d4a87b1b994ddaf97a
+      internalID: 1898941485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd80b21a05ff431458729827f8d2a7c8
+      internalID: 1578630458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c09dee25f1ea143b65c91cd337231d
+      internalID: 1841102485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cc2da33dc874d4889c16004524c2f7
+      internalID: -812558443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91526dc6bb22ac94d92e1143c55e9764
+      internalID: 1385166435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e183bca6b1fd2274d9e5cd183858b32d
+      internalID: -1871001065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8bfcb45e12a094b86e391443c3eede
+      internalID: -1689839154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536e3b2802ab8f242bda04339dc0252c
+      internalID: -613772422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e088c89f7d06714ba1ce1e5b44b1e58
+      internalID: -921166884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ae7628378d144449ab84e23fd66f07
+      internalID: 738882876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11c3ab556961894c8e5acff65f17da3
+      internalID: -2042046259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87877c46f3925d41944448991990fc2
+      internalID: -2067516696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7f3edc3ad31da4a8b44e30ca954b67
+      internalID: 1452525256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f575ed91a18ccc479882804490c8023
+      internalID: -915357302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaa0e2de487c4344b62f99dec66ffe2
+      internalID: 2061595937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db9526b69f55d4468870bd4220b977b
+      internalID: 188683935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88063ae22d2e6854f8f6a30602e88328
+      internalID: 1695973881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e741bdc3f0cc2f549a93bd349b3f4827
+      internalID: 2048220149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a5c54ba769c4448b040ca9c3dc19f
+      internalID: 1713956436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ddd9c77b0ec1948bbd361f16585410
+      internalID: -421553652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1452fa8aede8044841041702671c0f
+      internalID: -630976432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_37
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb4d391a7e15b459afdf4337bdd7b2
+      internalID: -1171248074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df47914194a0134b95571e830a70f99
+      internalID: 159677685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_39
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdba8a78eb613b4193ee86f0b6dd8f8
+      internalID: -2127132685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_40
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31f6b6edf5a2ed47b40c6fa3e81c190
+      internalID: -1944327382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_41
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319ee1fba20b3904daebfef9a4ceb959
+      internalID: -394508850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_42
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff1407a1cd878f42a460a51f4ba20e1
+      internalID: 1040215464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4c822d1efd49247bb1643d7b869563
+      internalID: -570178993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d14b8c1901993a44831332414ecb510
+      internalID: -1166656985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_45
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be05618462b275449812c7b0f3191f63
+      internalID: -1432064589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_46
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c405cb9e52839ac4ea9ef91a27bb1235
+      internalID: 732699389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_47
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a460bc3d0ddfdc479709ec8dd098c87
+      internalID: -368105336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_48
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a530e344eef514d99368bf21fd6a02
+      internalID: 1527266751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_49
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead3135af0454c54b82ffb03cc4613cb
+      internalID: 592787834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_50
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fadec47a74042d44b5f04805d579f7a
+      internalID: 13824494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_51
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba3ee027877b544bb477fd66cc0ea2a
+      internalID: -307481003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_52
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a312aaf203dd300479a2790b0539a404
+      internalID: 195000121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d948719a78201f45b0cffe28ed7ba7b
+      internalID: 155478468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_54
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d425a4f6c9b2f443877d116fd038016
+      internalID: 2116977952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_55
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab0c1d9964855349a574e4930588f73
+      internalID: -1452129364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ad83db19a3a454fbfa7eab14e24aee
+      internalID: 1310765694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014f93e7d0f41d945871620fca9d98f9
+      internalID: -640395616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078283b13dc2b674c91b6ee3d5d31a98
+      internalID: -152211070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7279210cb0ab134594a3c95f74048e8
+      internalID: 632082933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae1614427b73e44ad7468d6875e509
+      internalID: 747322467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca7fcf05099e114e8a69bd81d6c668a
+      internalID: -1038356463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3df14938f16164e95b5f331369dd9a
+      internalID: 1912949975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb829597a2dcfb4aafee471de81ccd3
+      internalID: -1214350391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_64
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacf952f190b91245b0f40a99a3eb1a6
+      internalID: 1852982976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_65
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f5d1963cd12984eb6da94a6a3d7046
+      internalID: -1948324924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_66
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0aad07c9313d042833c867d0bafffb
+      internalID: -1376155630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_67
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f59d8ccef559643b6c309fb5fbf226
+      internalID: 749747588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_68
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4464badb67a4f43a9aec24900046cc
+      internalID: -124964142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_69
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ce9e95944f8ec408bf4f423235aee4
+      internalID: -1910681015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_70
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cbb40acd7cb1a47b4d682173810f3d
+      internalID: -12032852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_71
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760ec994800cdb04c892e0c53bf50564
+      internalID: 1073695084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_72
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84178219064fda4fa0e2e20ddc0d561
+      internalID: -1789853701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_73
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339397785982fb445abe1f46e97aef1d
+      internalID: -950697939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_74
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744a61c30bd92614cae0d5df184fe98e
+      internalID: -1075576410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_75
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bb4a820b0897b47bb435b801a2ee51
+      internalID: 967222639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_76
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377a474452e577445b784eb9a6163e57
+      internalID: -1792367207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_77
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdbb7deaf03c7f4dabd4d754079c3f2
+      internalID: 1137468083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_78
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23080ae2e30cb2e47b4c47b0da73cbfd
+      internalID: 1265868890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_79
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0037490fb57ff3b40a08285582fc32c0
+      internalID: -1706410469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_80
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187e07f30760d8845842c557b0344eec
+      internalID: -1087651929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_81
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1f39d6ed8864c4b9a67719710fcecd
+      internalID: -1160886171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_82
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c663f336967f224692154187108e1c6
+      internalID: -1467500075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_83
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8671861b0634447aea3323f66b2d82
+      internalID: 1020154268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c0fd983b577154e9834d48aaa532ad
+      internalID: 2091121480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ddaff88b790b146906a9406c00db7b
+      internalID: 713387845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_86
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a937a5df7021484888084d04bdc77ff
+      internalID: -598113150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc33376131947e44bbc61dba30221b59
+      internalID: 1822029096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e490c5702cde39429a497ca82479113
+      internalID: -1192539352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_89
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2299e743bea2b745b3512fdc5ed9d47
+      internalID: 2133367000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d9daca366ece4190826375eea7265
+      internalID: -316043909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_91
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c73f4a0becb0a44b988f8e5806adab
+      internalID: -2126113072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_92
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5f970496c65084a97bc6ecb712f15b
+      internalID: 1094430684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_93
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54883ea46f4a1e4ebc37b9b4d5e4730
+      internalID: -1451652534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2331f794a19d448917bbadc0951a1
+      internalID: 1207034759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_95
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6493de6c9303929439643c989788dd10
+      internalID: -1800931839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_96
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94ea602c71c32247a982a5006a213a2
+      internalID: 1366108928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_97
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7484f256f3f5e645a0e248ac10c5d4b
+      internalID: 1799295725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_98
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940233e057f9bda48b0987eaa45577e3
+      internalID: -1237180206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_99
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3bb24e6ead1d45a81d3492f471921
+      internalID: 1355203617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_100
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaa84851b366664582df4278ce3c06e
+      internalID: 46640383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_101
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f022fe593808543a51688201cde45d
+      internalID: -509649019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_102
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7914e3dfc237de4ea53c8321397450e
+      internalID: -514465212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_103
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6455489075c74438688012ca5b6918
+      internalID: -1799631643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_104
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5670db226aa0ae8458bfc22b0b43bbaa
+      internalID: 96468342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_105
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde8398eb1b256545860f4d1e157958c
+      internalID: 2065771821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_106
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1e7dcb21c55444a9cae585e1ffbe36
+      internalID: -774276531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_107
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68062297a13d126448c980d14554c60b
+      internalID: 624135700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_108
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9770c8dada684dc4ba66db9b7cc6cfda
+      internalID: -424162144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_109
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58278ec90ced6f74fbdca9f8f3c92fbd
+      internalID: -1050546379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_110
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de7bf44201edf24ea8c7ce5db8fcfaf
+      internalID: 1906174503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_111
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db598f0a093304297d685480b22cb6
+      internalID: 1639905663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa10b4ee7ff131748928bba7f721cfd6
+      internalID: 2074702611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9442f363fc9c3048ac83cac5de4e15c
+      internalID: 846784554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cd8086670db7a4fa117d4d22e24c97
+      internalID: -657462462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_115
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4003c4429d46142abffc20fd3b9940
+      internalID: 2099500551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1191bc80601481e469b87d0b44c4c11b
+      internalID: -2094579663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_117
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b47d9c3c5bdb64991e0ff325649045
+      internalID: -1108672303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_118
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba14d9cc43c21649b7efaa74ba51992
+      internalID: 1032659034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0870b1e899080d459004b65e840fc3e
+      internalID: -990508567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_120
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08962489b3a188641929085d03fca161
+      internalID: 1988950438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_121
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a67e05febe65a0438dbf809be7bcdac
+      internalID: 1745511173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_122
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b5f24104d0ad49bae3050ce59efd5
+      internalID: -567901151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_123
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0d3b2e3640d284abc6fd3b1dd0431f
+      internalID: -569506850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_124
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2baddb04784a0447a2d021644d52201
+      internalID: 1628444769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_125
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b5bff6fd5a12429161ed8cd9cf8bf
+      internalID: 1311314154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_126
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bb5c3462e13d448b1400140f4424c2
+      internalID: -187987420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_127
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f98731fc3e2e3c4f8e6ca038a804f23
+      internalID: 157916565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_128
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84a5a71ad814364f85763e3cbb3fe39
+      internalID: -1492239817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_129
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57cf861c92ec3c43a8ee069113e2e0f
+      internalID: -257167029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_130
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d141bab3f97c554c82f53cafd120aff
+      internalID: 550474704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_131
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8403c2578ac41ec42a38e55224269c8b
+      internalID: 851295608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_132
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b8b66ca519cf94ea325fc40154a082
+      internalID: 1194535726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_133
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c369be386aedd84aad28c09e8514fff
+      internalID: -847518612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_134
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f8f01e8b115a4f9d7fd2a2a599351
+      internalID: 2114352481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_135
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b92fb0d76dd33540a6eeada2681e8a6
+      internalID: -1548867952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_136
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6616c2b9b844a2438fb91cacd6cf93d
+      internalID: 569366844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_137
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee05ce25e8ed0bb439e14921c6035bd1
+      internalID: 845140675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_138
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ee5eec3dc45c4b939bf20f3290ff6
+      internalID: -1050154076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_139
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909941ca2f83cd3448f9d9ed792d3e34
+      internalID: 1447737540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99208d0e1be79e4b9f0f3edfe1e4a6c
+      internalID: 740681458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_141
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8877ea5bd8fff3544a9489019985a3d9
+      internalID: 2004337240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84860bd0a6e86f47b050d21a29b1cbd
+      internalID: 1805763775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e10f9a970501489172ee73e346d84
+      internalID: -878396664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_144
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519481021b10464408d0bd0d95f9c0f7
+      internalID: 262592249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_145
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176c50d28508079488a8966c4fdf1a0a
+      internalID: 100372321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f031611ba700724499aa0b43127291c4
+      internalID: -1077379603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_147
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf8183ea69e4f44899beaad2065ac78
+      internalID: -2079370510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_148
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb4759d86b298f458fc79855a18c7d6
+      internalID: -1608204975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_149
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff5dc42161b0234ebd2dc17dea92d13
+      internalID: -811086672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_150
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03740966630c0e4a97ae25ac1037afc
+      internalID: 1551025834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_151
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8b9c19b4ce2c74cbc4be7a72aab53a
+      internalID: -470161589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_152
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a48d901487204f93e5d817572824a
+      internalID: 1249101305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_153
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b7887b69ef0e04abee7d3be2c3ef20
+      internalID: -811676633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_154
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc64c11f7965c441a300709b2e6e454
+      internalID: 1767242272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_155
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85766eec120419e4ea4be385fa29e1cf
+      internalID: 325310592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_156
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56c053cd028f804ab2da4c21622540b
+      internalID: 2015508724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_157
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4312db96601744d4b9ccd7dce5d00e3c
+      internalID: -1740892685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_158
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ba56c7a305f848a9764ead948a1f9
+      internalID: -93628189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_159
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0401b60b65b131459d86becb28fdb18
+      internalID: -710986968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_160
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf68681a4e65bae4ea97392a9097f2f1
+      internalID: -18862604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_161
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace8e900327fb5440b32695b5f6c20e7
+      internalID: -497641140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_162
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7502bdae1270b9444a38eea1e63ea404
+      internalID: -1747556672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_163
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60339d431a660a74bba718314505bfa1
+      internalID: -1525741716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_164
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e4f473d7d4d6048aa1f4e997f4c2ce
+      internalID: 1147197971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_165
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d02fb836a8ed3d4eadce1865b2039f8
+      internalID: -1557385432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_166
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4954dbf0f948d144d86b525eedf6ca84
+      internalID: -1781268492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_167
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a00fc18300cadd41acbde7871b1be90
+      internalID: 1174194497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8bf5fa54a13b14185797eb7531204b
+      internalID: -141588771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_169
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a50826b89ae6e4d87e07203e385e76
+      internalID: 883995108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_170
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d538fcb9330a28749bcba0db662a792a
+      internalID: 107809561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406250d567243e44ba32d71f73c4ee2a
+      internalID: -631530358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_172
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4e4811432552a4bb0f5bacd2008c71
+      internalID: 2010413662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_173
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064268c99b5bd3d4a954583596762267
+      internalID: 887301114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_174
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50a64ac69ba44e42bd3866f4e75c216
+      internalID: 403868068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_175
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcd3d6e14996c84dbe8686a8f32480e
+      internalID: 13855956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_176
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66421f81a45604ead5acdb58ce93d2
+      internalID: -253122647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_177
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71f274754e2a7e41986b314b6ba4436
+      internalID: 627045557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_178
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85c940651a8a31478c143ac8f8a5efe
+      internalID: -1594253527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_179
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcd51205cef8824c9befd537e925b0b
+      internalID: -288357082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_180
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d710d0a898b3c4493bc1a4cce18bed
+      internalID: -1644405021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_181
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1184fd7165a6c4596655fb189f5093
+      internalID: 2039572215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_182
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3320ba75ceac5384096d2e41a6d5ee3a
+      internalID: 545307657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_183
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd67ac5258e87a543b788ef866fb949d
+      internalID: -265918968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_184
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c2173e06f6ef540aa2cffc88881788
+      internalID: -1289116748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_185
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a55fdce64ac044981b98fca9f1cf36
+      internalID: 1781048136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_186
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74d1210b9806bf4b88ce67a3a6e0fdf
+      internalID: -520177936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_187
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af002bbd47c795942afe582546124412
+      internalID: 248323800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_188
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e9efa91a528e4894d269f781488fa
+      internalID: -1407256051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_189
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36231c6777e58248a5979b213da869e
+      internalID: -1706689897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_190
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e890284c32aa3d4aad42b5d2a91d544
+      internalID: -1101178977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_191
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197141db780967a4289b14b37c8f4146
+      internalID: -1747929321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_192
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e34ef391543ef4c8ddd1fd69ddeba7
+      internalID: 1995780637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_193
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f231ff5a95994e890c63503c29e05
+      internalID: -288406557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_194
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdc31fbda2c100439d8266c5e3f176e
+      internalID: 430889652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_195
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded1d5bd89a7724f84421753a75f38d
+      internalID: -786066420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95faf440a96e84e41be6a17ed87ba664
+      internalID: 514233399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cc2297258e49c4793825ed726d65ab
+      internalID: -1437543170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_198
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90a1b0eb20e4864889c62fc8519f7d6
+      internalID: -219546168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_199
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8035aede5142a438ea34d284e5df25
+      internalID: 749793415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffa23f70100a8043855971ab675ebb5
+      internalID: -509305771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_201
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8882e2e1e9a047b96bd7c33b1e5bd
+      internalID: -1548187886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_202
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2d738d42f6e404f8db5e46ed2fc421
+      internalID: -147626846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_203
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273decb53e716824194d47833e33b84f
+      internalID: 804665047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_204
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc0cf662eb1fad409b040f1b6b79c0a
+      internalID: -1043365871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_205
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1b7f1b92609cd4e935ee96d35bd0b8
+      internalID: -514223841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_206
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da45ee1f3d3c6e41bfb6246deecc444
+      internalID: 2021873103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_207
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1d6e22606e02c40b674de13b53036d
+      internalID: 1840213835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_208
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e55d54d977d646b590f9ad1769db4
+      internalID: 338262718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_209
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a812c8c23566740bdaa399f7cb39d2
+      internalID: -359452963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_210
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746232b4ca232f5498dce04d027b8b3b
+      internalID: 1160316282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_211
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be69dbe97fd3c04fa3c47e44c595e93
+      internalID: 1891909925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_212
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124e74722bb6abe4fb9b3f10da93ee0a
+      internalID: 2132634257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_213
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868145b277d729c4c90c4e2985d13230
+      internalID: 957981883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_214
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac08fde1d14157449c56d0cf74b2469
+      internalID: -553082499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_215
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b811c5426f855347a92efb60ae5e236
+      internalID: -1556829968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_216
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced973b1f03bee34c8929cbea1f36115
+      internalID: -359509499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_217
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2a66210f3a74e479caf45cbe9ba128
+      internalID: 1429681879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_218
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1577ab53c957ccd478ac0c60cb0fc806
+      internalID: 816328510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_219
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4522c31380094f0499d197c7bb4a5933
+      internalID: -279968838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_220
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b7c0242c29bf45966a9d001b1bfa7
+      internalID: 1888794370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_221
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc27d079b728284dbd83e17e068bb0f
+      internalID: 335560729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_222
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9a616304907444689264d90690aa4e
+      internalID: 1896688498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_223
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ef3116aa3e6e4594f841b7482546f
+      internalID: -1572542809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_44: -1166656985
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_140: 740681458
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_35: -421553652
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_170: 107809561
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_33: 2048220149
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_132: 1194535726
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_198: -219546168
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_22: -1689839154
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_201: -1548187886
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_127: 157916565
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_180: -1644405021
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_69: -1910681015
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_32: 1695973881
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_48: 1527266751
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_95: -1800931839
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_219: -279968838
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_178: -1594253527
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_166: -1781268492
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_45: -1432064589
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_86: -598113150
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_111: 1639905663
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_161: -497641140
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_187: 248323800
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_108: -424162144
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_114: -657462462
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_213: 957981883
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_197: -1437543170
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_96: 1366108928
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_99: 1355203617
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_212: 2132634257
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_10: 430988271
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_120: 1988950438
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_74: -1075576410
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_195: -786066420
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_11: 1550863786
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_21: -1871001065
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_64: 1852982976
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_77: 1137468083
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_23: -613772422
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_97: 1799295725
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_174: 403868068
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_17: 1578630458
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_52: 195000121
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_191: -1747929321
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_217: 1429681879
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_151: -470161589
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_26: -2042046259
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_181: 2039572215
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_203: 804665047
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_89: 2133367000
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_204: -1043365871
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_214: -553082499
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_153: -811676633
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_143: -878396664
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_15: -1168605522
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_25: 738882876
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_139: 1447737540
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_134: 2114352481
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_126: -187987420
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_155: 325310592
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_46: 732699389
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_110: 1906174503
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_194: 430889652
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_72: -1789853701
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_47: -368105336
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_208: 338262718
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_56: 1310765694
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_149: -811086672
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_90: -316043909
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_13: 1485761955
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_40: -1944327382
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_43: -570178993
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_8: 282240374
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_57: -640395616
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_62: 1912949975
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_109: -1050546379
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_19: -812558443
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_117: -1108672303
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_183: -265918968
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_113: 846784554
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_152: 1249101305
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_67: 749747588
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_41: -394508850
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_196: 514233399
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_124: 1628444769
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_168: -141588771
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_192: 1995780637
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_39: -2127132685
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_66: -1376155630
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_1: 1909136236
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_121: 1745511173
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_29: -915357302
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_176: -253122647
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_38: 159677685
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_101: -509649019
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_135: -1548867952
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_2: -48171053
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_207: 1840213835
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_5: 1402787962
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_123: -569506850
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_147: -2079370510
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_159: -710986968
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_158: -93628189
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_131: 851295608
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_177: 627045557
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_0: 1655166613
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_60: 747322467
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_14: 898365462
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_179: -288357082
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_171: -631530358
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_175: 13855956
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_65: -1948324924
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_142: 1805763775
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_156: 2015508724
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_220: 1888794370
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_102: -514465212
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_173: 887301114
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_93: -1451652534
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_4: 1355354638
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_54: 2116977952
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_122: -567901151
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_163: -1525741716
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_205: -514223841
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_105: 2065771821
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_36: -630976432
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_55: -1452129364
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_221: 335560729
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_202: -147626846
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_87: 1822029096
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_138: -1050154076
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_71: 1073695084
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_136: 569366844
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_49: 592787834
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_209: -359452963
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_83: 1020154268
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_91: -2126113072
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_223: -1572542809
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_210: 1160316282
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_186: -520177936
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_84: 2091121480
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_3: -1385345768
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_103: -1799631643
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_130: 550474704
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_27: -2067516696
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_59: 632082933
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_146: -1077379603
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_82: -1467500075
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_61: -1038356463
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_75: 967222639
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_137: 845140675
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_85: 713387845
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_104: 96468342
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_76: -1792367207
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_133: -847518612
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_184: -1289116748
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_24: -921166884
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_9: -1536527490
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_211: 1891909925
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_16: 1898941485
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_94: 1207034759
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_78: 1265868890
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_118: 1032659034
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_128: -1492239817
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_141: 2004337240
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_193: -288406557
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_145: 100372321
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_164: 1147197971
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_80: -1087651929
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_68: -124964142
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_222: 1896688498
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_53: 155478468
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_28: 1452525256
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_148: -1608204975
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_154: 1767242272
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_160: -18862604
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_189: -1706689897
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_167: 1174194497
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_31: 188683935
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_190: -1101178977
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_157: -1740892685
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_6: -1250732016
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_18: 1841102485
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_12: 57275155
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_106: -774276531
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_188: -1407256051
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_100: 46640383
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_165: -1557385432
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_92: 1094430684
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_116: -2094579663
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_81: -1160886171
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_51: -307481003
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_119: -990508567
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_172: 2010413662
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_200: -509305771
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_115: 2099500551
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_30: 2061595937
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_37: -1171248074
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_144: 262592249
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_218: 816328510
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_150: 1551025834
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_162: -1747556672
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_112: 2074702611
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_129: -257167029
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_50: 13824494
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_34: 1713956436
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_215: -1556829968
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_70: -12032852
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_79: -1706410469
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_7: 1980694530
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_88: -1192539352
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_216: -359509499
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_185: 1781048136
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_20: 1385166435
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_63: -1214350391
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_42: 1040215464
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_73: -950697939
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_182: 545307657
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_125: 1311314154
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_199: 749793415
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_206: 2021873103
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_107: 624135700
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_169: 883995108
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_58: -152211070
+      favpng_sprite-opengameart-org-isometric-projection-isometric-graphics-in-video-games-and-pixel-art_98: -1237180206
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

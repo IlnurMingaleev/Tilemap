@@ -7,12 +7,12 @@ public class IsometricPlayerController : MonoBehaviour
     private Rigidbody2D rigidBody2D;
     [SerializeField] private float _speed;
     [SerializeField] private Joystick joystick;
-    private PlayerAnimation animation;
+    private AnimateMoves animateMoves;
     // Start is called before the first frame update
     void Awake()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
-        animation = GetComponent<PlayerAnimation>();
+        animateMoves = gameObject.GetComponent<AnimateMoves>();
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         Vector2 moveVector = new Vector2(horizontalMove, verticalMove);
         moveVector = Vector2.ClampMagnitude(moveVector, 1);
-        animation.SetDirection(moveVector);
+        animateMoves.SetDirection(moveVector);
 
         Vector2 newPos = currentPos + moveVector;
         rigidBody2D.MovePosition(newPos);

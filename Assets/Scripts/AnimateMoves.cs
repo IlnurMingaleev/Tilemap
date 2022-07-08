@@ -2,17 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimation : MonoBehaviour
+public class AnimateMoves : MonoBehaviour
 {
     private string[] IdleDirections = { "Idle_N", "Idle_NW", "Idle_W", "Idle_SW", "Idle_S", "Idle_SE", "Idle_E", "Idle_NE" };
     private string[] WalkDirections = { "Walk_N", "Walk_NW", "Walk_W", "Walk_SW", "Walk_S", "Walk_SE", "Walk_E", "Walk_NE" };
 
     private Animator animator;
-    private int lastDirection;
-    private // Start is called before the first frame update
+    public int lastDirection { get; set; }
+   // Start is called before the first frame update
     void Awake()
     {
         animator = GetComponent<Animator>();
+        lastDirection = 4;
     }
 
     public void SetDirection(Vector2 direction) 
@@ -34,7 +35,7 @@ public class PlayerAnimation : MonoBehaviour
     }
 
     // Converts Vector2 direction to an index which we use to detemine animation.
-    private int DirectionIndex(Vector2 direction)
+    public static int DirectionIndex(Vector2 direction)
     { 
         //Returns this vector with a magnitude of 1 (Read Only).
         //When normalized, a vector keeps the same direction but its length is 1.0.
