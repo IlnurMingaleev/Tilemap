@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Класс для правильного анимирования движения по направлениям.
+
 public class AnimateMoves : MonoBehaviour
 {
     private string[] IdleDirections = { "Idle_N", "Idle_NW", "Idle_W", "Idle_SW", "Idle_S", "Idle_SE", "Idle_E", "Idle_NE" };
@@ -9,13 +11,20 @@ public class AnimateMoves : MonoBehaviour
 
     private Animator animator;
     public int lastDirection { get; set; }
-   // Start is called before the first frame update
+
+
+
     void Awake()
     {
         animator = GetComponent<Animator>();
         lastDirection = 4;
     }
 
+
+
+
+    // Метод устанавливает направление анимации по направлению движения.
+    // Выбирает самую подходящую анимацию
     public void SetDirection(Vector2 direction) 
     {
         string[] directionArray = null;
@@ -34,28 +43,31 @@ public class AnimateMoves : MonoBehaviour
         animator.Play(directionArray[lastDirection]);
     }
 
-    // Converts Vector2 direction to an index which we use to detemine animation.
+
+
+
+    // Переводит вектор в индекс анимации нужного направления.
     public static int DirectionIndex(Vector2 direction)
     { 
-        //Returns this vector with a magnitude of 1 (Read Only).
-        //When normalized, a vector keeps the same direction but its length is 1.0.
+        // Возвращает вектор длины один
 
         Vector2 normalizedDirection = direction.normalized;
         
-        // We are dividing to 8 because we have 8 directions in compass
+        //Делим на восемь потому что восемь направлений в компасе
 
         float step = 360 / 8;
-        // By this calculation we achieve offset from each side of compass direction
+        
+        // Получаем угол на который может отклониться вектор от данного направления компаса
 
         float offset = step / 2;
 
-        //Angle between vectors
+        //Угол между векторами
 
         float angle = Vector2.SignedAngle(Vector2.up, normalizedDirection);
 
         angle += offset;
 
-        //Here we avoid using negative angles
+        //Избегаем использование отрицательных углов
 
         if (angle < 0)
         {
@@ -64,7 +76,7 @@ public class AnimateMoves : MonoBehaviour
 
         float stepCount = angle / step;
 
-        //Returns the largest integer smaller to or equal to
+        //Возвращает индекс который равен или меньше данного угла
 
         return Mathf.FloorToInt(stepCount);
 

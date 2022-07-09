@@ -20,7 +20,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             isIdle = value;
         }
     }
-
+    //Инициализируем поля
     void Start()
     {
 
@@ -33,6 +33,10 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         monster.IsGenerated = true;
         isIdle = false;
     }
+    // Метод осуществляет случайное перемещение по вейпоинтам
+    // IsIdle осуществляет переключение анимации при появлении сообщения, 
+    // IsGenerated использую чтобы вейпоинт генерировался по очереди, а не кучей друг за другом.
+    // WPradius дистанция от вейпоинта при которой генерируется новый вейпоинт.
     public override void RandomMove()
     {
         if (!isIdle)
@@ -46,12 +50,12 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
                 IsGenerated = false;
             }
             transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
-            WayVector = WayPoint - RigidBody2D.position;
+            WayVector = WayPoint - RigidBody2D.position; // Определяю вектор на который нужно ориентировать анимацию
         }
         else 
         {
-            WayVector = new Vector2(0, 0);
-        }
+            WayVector = new Vector2(0, 0); // Устанавливаю вектор нулевым чтобы монстр принимал Idle анимацию
+         }
         AnimateMoves.SetDirection(WayVector);
     }
 
@@ -64,14 +68,14 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         monster.RandomMove();
         
     }
-
+    //Монстр реагирует на появление игрока
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isIdle = true;
         string monstrTriggerMessage = "Монстр отреагировал на появление игрока.";
         
         messageBox.SetActive(true);
-        uiController =messageBox.GetComponent<UIController>();
+        uiController = messageBox.GetComponent<UIController>();
         uiController.SetMonstrTriggerMessage(messageBox, monstrTriggerMessage, 2.0f);
 
 

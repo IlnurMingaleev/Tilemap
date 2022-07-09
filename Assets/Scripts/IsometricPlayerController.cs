@@ -14,7 +14,7 @@ public class IsometricPlayerController : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         animateMoves = gameObject.GetComponent<AnimateMoves>();
     }
-
+    // ”правл€ю игроком по вводу с джойстика.
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -25,8 +25,8 @@ public class IsometricPlayerController : MonoBehaviour
         float verticalMove = JoystickInput(joystick.Vertical);
 
         Vector2 moveVector = new Vector2(horizontalMove, verticalMove);
-        moveVector = Vector2.ClampMagnitude(moveVector, 1);
-        animateMoves.SetDirection(moveVector);
+        moveVector = Vector2.ClampMagnitude(moveVector, 1); // ѕривожу к вектору длины один стобы при движении подиагонали скорость была такой же. 
+        animateMoves.SetDirection(moveVector);//устанавливаю нужную анимацию по направлению движени€.
 
         Vector2 newPos = currentPos + moveVector;
         rigidBody2D.MovePosition(newPos);
