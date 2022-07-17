@@ -21,7 +21,13 @@ public class ProgressBar : MonoBehaviour
     [SerializeField] private int current;
     [SerializeField] private Image fill;
     [SerializeField] private Color color;
-    
+
+    public ProgressBar(int min, int max, int current) 
+    {
+        this.minimum = min;
+        this.maximum = max;
+        this.current = current;
+    }
     public int Minimum 
     {
         get 

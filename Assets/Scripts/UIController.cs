@@ -8,6 +8,8 @@ public class UIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textMesh;
     [SerializeField] private GameObject monster;
 
+
+
    // ќбъ€вл€ем метод который должен выводить сообщение в текстмешпро при срабатывании Collision Trigger у монстра.
    // gObject ќбъект MessageBox в сцене.
    // message —ообщение которое выводитьс€ на экран.
