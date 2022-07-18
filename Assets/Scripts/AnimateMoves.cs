@@ -14,7 +14,7 @@ public class AnimateMoves : MonoBehaviour
 
 
 
-    void Awake()
+    void Start()
     {
         animator = GetComponent<Animator>();
         lastDirection = 4;

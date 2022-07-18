@@ -9,6 +9,18 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     [SerializeField] private GameObject messageBox;
     private UIController uiController;
     private bool isIdle;
+    [SerializeField] private GameObject player;
+    private State state;
+    [SerializeField] private float attackRange;
+    private HealthSystem playerHealthSystem;
+    [SerializeField] private float attackspeed;
+    private float canAttack;
+    public enum State 
+    {
+        Wander,
+        Chase,
+        Attack
+    }
     public bool IsIdle 
     {
         get 
@@ -23,15 +35,16 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     //Инициализируем поля
     void Start()
     {
-
+        RigidBody2D = GetComponent<Rigidbody2D>();
         monster = GetComponent<MonsterCharacterBehavior>();
         circleCollider2D = GetComponent<CircleCollider2D>();
-        monster.RigidBody2D = GetComponent<Rigidbody2D>();
         monster.AnimateMoves = GetComponent<AnimateMoves>();
         monster.WayPoint = PolarToWayPoint();
         monster.WPradius = 0.3f;
         monster.IsGenerated = true;
         isIdle = false;
+        state = State.Wander;
+        playerHealthSystem = player.GetComponent<HealthSystem>();
     }
     // Метод осуществляет случайное перемещение по вейпоинтам
     // IsIdle осуществляет переключение анимации при появлении сообщения, 
@@ -49,8 +62,10 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             {
                 IsGenerated = false;
             }
+            Vector3 tempVector = transform.position;
+            WayVector = WayPoint - new Vector2(tempVector.x,tempVector.y);// Определяю вектор на который нужно ориентировать анимацию
             transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
-            WayVector = WayPoint - RigidBody2D.position; // Определяю вектор на который нужно ориентировать анимацию
+             
         }
         else 
         {
@@ -63,15 +78,33 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     // Update is called once per frame
     void Update()
     {
-
+        switch (state) 
+        {
+            case State.Wander:
+                monster.RandomMove();
+                break;
+            case State.Chase:
+                monster.FindTarget();
+                Debug.Log("Started chasing");
+               
+                break;
+            case State.Attack:
+                monster.Attack();
+                break;
+        }
     
-        monster.RandomMove();
+        //monster.RandomMove();
         
     }
     //Монстр реагирует на появление игрока
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isIdle = true;
+        if (collision.gameObject.tag == "Player")
+        {
+            state = State.Chase;
+            Debug.Log("collision happened");
+        }
+        /*isIdle = true;
         string monstrTriggerMessage = "Монстр отреагировал на появление игрока.";
         
         messageBox.SetActive(true);
@@ -79,11 +112,50 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         uiController.SetMonstrTriggerMessage(messageBox, monstrTriggerMessage, 2.0f);
 
 
-        Debug.Log(monstrTriggerMessage);
+        Debug.Log(monstrTriggerMessage);*/
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            state = State.Wander;
+            Debug.Log("collision ended");
+        }
+        
     }
 
 
+    private void FindTarget() 
+    {
+        Debug.Log("We are in Find Position");
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * monster.Speed);
+        WayVector = player.GetComponent<Rigidbody2D>().position-RigidBody2D.position;
+        AnimateMoves.SetDirection(WayVector);
+        
+        
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance <= attackRange)
+        {
+            state = State.Attack;
+        }
 
+    }
+
+    private void Attack() 
+    {
+        if (attackspeed <= canAttack)
+        {
+            playerHealthSystem.Damage(10);
+            canAttack = 0;
+        }
+        else 
+        {
+            canAttack += Time.deltaTime;
+        }
+    
+    }
 
 
 }
