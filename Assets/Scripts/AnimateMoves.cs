@@ -6,8 +6,10 @@ using UnityEngine;
 
 public class AnimateMoves : MonoBehaviour
 {
-    private string[] IdleDirections = { "Idle_N", "Idle_NW", "Idle_W", "Idle_SW", "Idle_S", "Idle_SE", "Idle_E", "Idle_NE" };
-    private string[] WalkDirections = { "Walk_N", "Walk_NW", "Walk_W", "Walk_SW", "Walk_S", "Walk_SE", "Walk_E", "Walk_NE" };
+    private string[] idleDirections = { "Idle_N", "Idle_NW", "Idle_W", "Idle_SW", "Idle_S", "Idle_SE", "Idle_E", "Idle_NE" };
+    private string[] walkDirections = { "Walk_N", "Walk_NW", "Walk_W", "Walk_SW", "Walk_S", "Walk_SE", "Walk_E", "Walk_NE" };
+    private string[] attackDirections = { "Attack_N", "Attack_NW", "Attack_W", "Attack_SW", "Attack_S", "Attack_SE", "Attack_E", "Attack_NE" };
+    private string[] deathDirections = { "Dead_N", "Dead_NW", "Dead_W", "Dead_SW", "Dead_S", "Dead_SE", "Dead_E", "Dead_NE" };
 
     private Animator animator;
     public int lastDirection { get; set; }
@@ -25,20 +27,29 @@ public class AnimateMoves : MonoBehaviour
 
     // Метод устанавливает направление анимации по направлению движения.
     // Выбирает самую подходящую анимацию
-    public void SetDirection(Vector2 direction) 
+    public void SetDirection(Vector2 direction, States state) 
     {
         string[] directionArray = null;
-
-
-        if (direction.magnitude < .01f) //Character is static.
+        switch (state) 
         {
-            directionArray = IdleDirections;
-        }
-        else 
-        {
-            directionArray = WalkDirections;
-
-            lastDirection = DirectionIndex(direction); // Get the index of the slcie from the direction vector
+            case States.Move:
+                directionArray = walkDirections;
+                lastDirection = DirectionIndex(direction);
+                break;
+            case States.Attack:
+                directionArray = attackDirections;
+                break;
+            case States.Dead:
+                directionArray = deathDirections;
+                break;
+            case States.Idle:
+                if(direction.magnitude < 0.1f) 
+                {
+                    directionArray = idleDirections;
+                }
+                
+                break;
+            
         }
         animator.Play(directionArray[lastDirection]);
     }

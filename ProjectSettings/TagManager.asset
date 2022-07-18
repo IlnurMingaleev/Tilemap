@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Stats
   - Water
   - UI
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Lapms
     uniqueID: 2092962675
+    locked: 0
+  - name: Stats
+    uniqueID: 1918624183
     locked: 0
   - name: Player
     uniqueID: 3335506267

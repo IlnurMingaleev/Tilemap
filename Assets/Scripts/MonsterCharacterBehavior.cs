@@ -52,26 +52,18 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     // WPradius дистанци€ от вейпоинта при которой генерируетс€ новый вейпоинт.
     public override void RandomMove()
     {
-        if (!isIdle)
-        {
-            if (!IsGenerated && Vector3.Distance(WayPoint, transform.position) < WPradius)
-            {
-                WayPoint = PolarToWayPoint();
-            }
-            else
-            {
-                IsGenerated = false;
-            }
-            Vector3 tempVector = transform.position;
-            WayVector = WayPoint - new Vector2(tempVector.x,tempVector.y);// ќпредел€ю вектор на который нужно ориентировать анимацию
-            transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
-             
-        }
-        else 
-        {
-            WayVector = new Vector2(0, 0); // ”станавливаю вектор нулевым чтобы монстр принимал Idle анимацию
-         }
-        AnimateMoves.SetDirection(WayVector);
+       if (!IsGenerated && Vector3.Distance(WayPoint, transform.position) < WPradius)
+       {
+           WayPoint = PolarToWayPoint();
+       }
+       else
+       {
+            IsGenerated = false;
+       }
+       Vector3 tempVector = transform.position;
+       WayVector = WayPoint - new Vector2(tempVector.x,tempVector.y);// ќпредел€ю вектор на который нужно ориентировать анимацию
+       transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
+       AnimateMoves.SetDirection(WayVector, States.Move);
     }
 
     
@@ -132,7 +124,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         Debug.Log("We are in Find Position");
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * monster.Speed);
         WayVector = player.GetComponent<Rigidbody2D>().position-RigidBody2D.position;
-        AnimateMoves.SetDirection(WayVector);
+        AnimateMoves.SetDirection(WayVector,States.Move);
         
         
         float distance = Vector2.Distance(transform.position, player.transform.position);
@@ -147,6 +139,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     {
         if (attackspeed <= canAttack)
         {
+            AnimateMoves.SetDirection(WayVector, States.Attack);
             playerHealthSystem.Damage(10);
             canAttack = 0;
         }

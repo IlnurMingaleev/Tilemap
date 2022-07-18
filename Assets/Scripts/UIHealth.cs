@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-public class UIHealth : MonoBehaviour
+public class UIHealth : MonoBehaviour, IHealth
 {
     [SerializeField] private ProgressBar healthBarMain;
     [SerializeField] private ProgressBar healthBarInCharacterMenu;
@@ -17,7 +17,7 @@ public class UIHealth : MonoBehaviour
         healthSystem = GetComponent<HealthSystem>();
     }
 
-    public void setHealthToUI(int health, int maxHealth) 
+    public void SetHealthToUI(int health, int maxHealth) 
     {   
         healthBarMain.Maximum = maxHealth;
         healthBarMain.Current = health;

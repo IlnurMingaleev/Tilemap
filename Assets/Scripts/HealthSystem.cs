@@ -5,12 +5,14 @@ public class HealthSystem : MonoBehaviour
 {
     [SerializeField] private int health;
     [SerializeField] private int healthMax;
-    private UIHealth uihealth;
+    private IHealth uihealth;
+    private IsometricPlayerController playerController;
 
     void Start() 
     {
-        uihealth = GetComponent<UIHealth>();
-        uihealth.setHealthToUI(health, healthMax);
+        playerController = GetComponent<IsometricPlayerController>();
+        uihealth = GetComponent<IHealth>();
+        uihealth.SetHealthToUI(health, healthMax);
     }
     public HealthSystem(int healthMax) 
     {
@@ -29,15 +31,19 @@ public class HealthSystem : MonoBehaviour
     public void Damage(int damageAmount) 
     {
         health -= damageAmount;
-        if (health < 0) health = 0;
-        uihealth.setHealthToUI(health, healthMax);
+        if (health <= 0) 
+        {
+            health = 0;
+            playerController.Death();
+        }
+        uihealth.SetHealthToUI(health, healthMax);
     }
 
     public void Heal(int healAmount)
     {
         health += healAmount;
         if (health > healthMax) health = healthMax;
-        uihealth.setHealthToUI(health, healthMax);
+        uihealth.SetHealthToUI(health, healthMax);
     }
     
 }
