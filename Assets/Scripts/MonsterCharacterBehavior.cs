@@ -121,7 +121,6 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
     private void FindTarget() 
     {
-        Debug.Log("We are in Find Position");
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * monster.Speed);
         WayVector = player.GetComponent<Rigidbody2D>().position-RigidBody2D.position;
         AnimateMoves.SetDirection(WayVector,States.Move);

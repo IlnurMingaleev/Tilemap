@@ -3,6 +3,7 @@ public enum States
     Move,
     Attack,
     Dead,
-    Idle
+    Idle,
+    Empty
 
 }
