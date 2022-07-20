@@ -4,45 +4,41 @@ using UnityEngine;
 
 public class MonsterCharacterBehavior : NonPlayerCharacter
 {
+    [SerializeField] private GameObject messageBox;
+    [SerializeField] private GameObject player;
+    [SerializeField] private float attackRange;
+    [SerializeField] private float attackspeed;
+    [SerializeField] private int expAmount;
+
+
     private MonsterCharacterBehavior monster;
     private CircleCollider2D circleCollider2D;
-    [SerializeField] private GameObject messageBox;
     private UIController uiController;
     private bool isIdle;
-    [SerializeField] private GameObject player;
     private State state;
-    [SerializeField] private float attackRange;
     private HealthSystem playerHealthSystem;
-    [SerializeField] private float attackspeed;
+    private ExperienceSystem playerExperienceSystem;
     private float canAttack;
     private Animator animator;
+
+    
     public enum State 
     {
         Wander,
         Chase,
-        Attack
-    }
-    public bool IsIdle 
-    {
-        get 
-        {
-            return isIdle;
-        }
-        set 
-        {
-            isIdle = value;
-        }
+        Attack,
+        Dead
     }
     //Инициализируем поля
     void Start()
     {
+        playerExperienceSystem = player.GetComponent<ExperienceSystem>();
         RigidBody2D = GetComponent<Rigidbody2D>();
         monster = GetComponent<MonsterCharacterBehavior>();
         circleCollider2D = GetComponent<CircleCollider2D>();
         monster.WayPoint = PolarToWayPoint();
         monster.WPradius = 0.3f;
         monster.IsGenerated = true;
-        isIdle = false;
         state = State.Wander;
         playerHealthSystem = player.GetComponent<HealthSystem>();
         animator = GetComponent<Animator>();
@@ -91,10 +87,11 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             case State.Chase:
                 monster.FindTarget();
                 //Debug.Log("Started chasing");
-               
                 break;
             case State.Attack:
                 monster.Attack();
+                break;
+            case State.Dead:
                 break;
         }
     
@@ -104,7 +101,8 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     //Монстр реагирует на появление игрока
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+
+        if (collision.gameObject.tag == "Player" && state != State.Dead)
         {
             state = State.Chase;
             //Debug.Log("collision happened");
@@ -123,7 +121,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && state != State.Dead)
         {
             state = State.Wander;
             //Debug.Log("collision ended");
@@ -187,9 +185,17 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         animator.SetBool("attacking", false);
     }
 
-    private void Death() 
+    public void DeactivateEnemy() 
+    {
+        gameObject.SetActive(false);
+    }
+    public void Death() 
     {
         animator.SetBool("isDead", true);
+        state = State.Dead;
+        Invoke("DeactivateEnemy", 2.0f);
+
+        //isDead = true;
     }
 
 }

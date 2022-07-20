@@ -12162,6 +12162,7 @@ MonoBehaviour:
   player: {fileID: 4365271284735560289}
   attackRange: 0.5
   attackspeed: 1
+  expAmount: 0
 --- !u!58 &700057593
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20065,6 +20066,7 @@ GameObject:
   - component: {fileID: 4365271284735560296}
   - component: {fileID: 4365271284735560301}
   - component: {fileID: 4365271284735560302}
+  - component: {fileID: 4365271284735560303}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -20252,3 +20254,16 @@ MonoBehaviour:
   healthBarInCharacterMenu: {fileID: 2022873478}
   healthBarMainTextField: {fileID: 281376437}
   healthBarInCharacterMenuTextField: {fileID: 989164593}
+--- !u!114 &4365271284735560303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4365271284735560289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2539fa01f27232e4486c3a9181137e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minExp: 0

@@ -164,7 +164,7 @@ public class IsometricPlayerController : MonoBehaviour
             hit = Physics2D.Raycast(transform.position, rays[i], distance);
             if (hit.collider)
             {
-                if (hit.collider.gameObject.tag == "Enemy") 
+                if (hit.collider.gameObject.CompareTag("Enemy")) 
                 {
                     enemy = hit.collider.gameObject;
                     HealthSystem enemyHealthSystem = enemy.GetComponent<HealthSystem>();

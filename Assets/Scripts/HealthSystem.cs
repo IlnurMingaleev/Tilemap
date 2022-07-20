@@ -6,11 +6,9 @@ public class HealthSystem : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private int healthMax;
     private IHealth uihealth;
-    private IsometricPlayerController playerController;
 
     void Start() 
     {
-        playerController = GetComponent<IsometricPlayerController>();
         uihealth = GetComponent<IHealth>();
         uihealth.SetHealthToUI(health, healthMax);
     }
@@ -34,7 +32,14 @@ public class HealthSystem : MonoBehaviour
         if (health <= 0) 
         {
             health = 0;
-            //playerController.Death();
+            if (gameObject.CompareTag("Enemy")) 
+            {
+                gameObject.GetComponent<MonsterCharacterBehavior>().Death();
+            }
+            if (gameObject.CompareTag("Player")) 
+            {
+                gameObject.GetComponent<IsometricPlayerController>().Death();
+            }
         }
         uihealth.SetHealthToUI(health, healthMax);
     }

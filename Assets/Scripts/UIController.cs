@@ -14,14 +14,14 @@ public class UIController : MonoBehaviour
    // gObject Объект MessageBox в сцене.
    // message Сообщение которое выводиться на экран.
    // seconds Кол-во секунд которое сообщение будет на экране.
-    public void SetMonstrTriggerMessage(GameObject gObject, string message, float seconds) 
+ /*   public void SetMonstrTriggerMessage(GameObject gObject, string message, float seconds) 
     {
         textMesh.text = message;
         StartCoroutine(MeassgeDuration(gObject,seconds));
         
-    }
+    }*/
 
-     // Создаем IEnumerator для Коурутины для отведения времени активности окна с сообщением.
+     /*// Создаем IEnumerator для Коурутины для отведения времени активности окна с сообщением.
     IEnumerator MeassgeDuration(GameObject gObject, float seconds)
     { 
 
@@ -29,5 +29,5 @@ public class UIController : MonoBehaviour
 
         gObject.SetActive(false);
         monster.GetComponent<MonsterCharacterBehavior>().IsIdle = false;
-    }
+    }*/
 }
