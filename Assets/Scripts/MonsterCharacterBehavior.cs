@@ -15,6 +15,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private HealthSystem playerHealthSystem;
     [SerializeField] private float attackspeed;
     private float canAttack;
+    private Animator animator;
     public enum State 
     {
         Wander,
@@ -38,13 +39,13 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         RigidBody2D = GetComponent<Rigidbody2D>();
         monster = GetComponent<MonsterCharacterBehavior>();
         circleCollider2D = GetComponent<CircleCollider2D>();
-        monster.AnimateMoves = GetComponent<AnimateMoves>();
         monster.WayPoint = PolarToWayPoint();
         monster.WPradius = 0.3f;
         monster.IsGenerated = true;
         isIdle = false;
         state = State.Wander;
         playerHealthSystem = player.GetComponent<HealthSystem>();
+        animator = GetComponent<Animator>();
     }
     // Метод осуществляет случайное перемещение по вейпоинтам
     // IsIdle осуществляет переключение анимации при появлении сообщения, 
@@ -60,10 +61,22 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
        {
             IsGenerated = false;
        }
-       Vector3 tempVector = transform.position;
-       WayVector = WayPoint - new Vector2(tempVector.x,tempVector.y);// Определяю вектор на который нужно ориентировать анимацию
+       
+       WayVector = WayPoint - transform.position;
+        float movementX = Vector3.Project(WayVector,Vector3.right).x;
+        float movementY = Vector3.Project(WayVector, Vector3.up).y;
+        if (movementX != 0 || movementY != 0)
+        {
+            animator.SetBool("walking", true);
+            Utils.LastInput(movementX, "movementX", animator);
+            Utils.LastInput(movementY, "movementY", animator);
+        }
+        else
+        {
+            animator.SetBool("walking", false);
+        }
+        // Определяю вектор на который нужно ориентировать анимацию
        transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
-       AnimateMoves.SetDirection(WayVector, States.Move);
     }
 
     
@@ -77,7 +90,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
                 break;
             case State.Chase:
                 monster.FindTarget();
-                Debug.Log("Started chasing");
+                //Debug.Log("Started chasing");
                
                 break;
             case State.Attack:
@@ -94,7 +107,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         if (collision.gameObject.tag == "Player")
         {
             state = State.Chase;
-            Debug.Log("collision happened");
+            //Debug.Log("collision happened");
         }
         /*isIdle = true;
         string monstrTriggerMessage = "Монстр отреагировал на появление игрока.";
@@ -113,7 +126,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         if (collision.gameObject.tag == "Player")
         {
             state = State.Wander;
-            Debug.Log("collision ended");
+            //Debug.Log("collision ended");
         }
         
     }
@@ -122,8 +135,19 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private void FindTarget() 
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * monster.Speed);
-        WayVector = player.GetComponent<Rigidbody2D>().position-RigidBody2D.position;
-        AnimateMoves.SetDirection(WayVector,States.Move);
+        WayVector = player.transform.position-transform.position;
+        float movementX = Vector3.Project(WayVector, Vector3.right).x;
+        float movementY = Vector3.Project(WayVector, Vector3.up).y;
+        if (movementX != 0 || movementY != 0)
+        {
+            animator.SetBool("walking", true);
+            Utils.LastInput(movementX, "movementX", animator);
+            Utils.LastInput(movementY, "movementY", animator);
+        }
+        else
+        {
+            animator.SetBool("walking", false);
+        }
         
         
         float distance = Vector2.Distance(transform.position, player.transform.position);
@@ -136,18 +160,36 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
     private void Attack() 
     {
-        if (attackspeed <= canAttack)
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance > attackRange)
         {
-            AnimateMoves.SetDirection(WayVector, States.Attack);
-            playerHealthSystem.Damage(10);
-            canAttack = 0;
+            state = State.Chase;
         }
         else 
         {
-            canAttack += Time.deltaTime;
+            animator.SetBool("attacking", true);
+            Invoke("SetAttackFalse", 0.9f);
+            if (attackspeed <= canAttack)
+            {
+                playerHealthSystem.Damage(10);
+                canAttack = 0;
+            }
+            else
+            {
+                canAttack += Time.deltaTime;
+            }
         }
+        
     
     }
+    public void SetAttackFalse()
+    {
+        animator.SetBool("attacking", false);
+    }
 
+    private void Death() 
+    {
+        animator.SetBool("isDead", true);
+    }
 
 }

@@ -34,7 +34,7 @@ public class HealthSystem : MonoBehaviour
         if (health <= 0) 
         {
             health = 0;
-            playerController.Death();
+            //playerController.Death();
         }
         uihealth.SetHealthToUI(health, healthMax);
     }

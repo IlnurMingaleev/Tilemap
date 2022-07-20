@@ -9,19 +9,17 @@ public class IsometricPlayerController : MonoBehaviour
     [SerializeField] private Joystick joystick;
     [SerializeField] private float attackRange;
     [SerializeField] private int attackDamage;
-    private AnimateMoves animateMoves;
     private States state;
     Vector2 moveVector;
-    public delegate void ClickAction();
-    public static event ClickAction onClicked;
     private Animator anim;
+    private Vector3[] rays;
+    private Vector3 direction;
     // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
-        animateMoves = gameObject.GetComponent<AnimateMoves>();
         state = States.Idle;
-        onClicked += animateAttack;
+
         anim = GetComponent<Animator>();
     }
     // Управляю игроком по вводу с джойстика.
@@ -31,6 +29,7 @@ public class IsometricPlayerController : MonoBehaviour
         float horizontalMove = JoystickInput(joystick.Horizontal);
         float verticalMove = JoystickInput(joystick.Vertical);
 
+
         anim.SetFloat("SpeedX", horizontalMove);
         anim.SetFloat("SpeedY", verticalMove);
 
@@ -39,10 +38,18 @@ public class IsometricPlayerController : MonoBehaviour
             verticalMove,
             0
             );
+        movement *= _speed;
         movement = Vector3.ClampMagnitude(movement, _speed);
         movement *= Time.deltaTime;
-        
+
         transform.Translate(movement);
+        if (rays != null)
+        {
+            foreach (Vector3 ray in rays)
+            {
+                Debug.DrawRay(transform.position, ray, Color.red);
+            }
+        }
     }
     void FixedUpdate()
     {
@@ -53,33 +60,10 @@ public class IsometricPlayerController : MonoBehaviour
         if (lastInputX != 0 || lastInputY != 0)
         {
             anim.SetBool("walking", true);
-            if (lastInputX > 0)
-            {
-                anim.SetFloat("LastMoveX", 1f);
-            }
-            else if (lastInputX < 0)
-            {
-                anim.SetFloat("LastMoveX", -1f);
-            }
-            else 
-            {
-                anim.SetFloat("LastMoveX", 0f);
-            }
 
-
-
-            if (lastInputY > 0)
-            {
-                anim.SetFloat("LastMoveY", 1f);
-            }
-            else if (lastInputY < 0)
-            {
-                anim.SetFloat("LastMoveY", -1f);
-            }
-            else
-            {
-                anim.SetFloat("LastMoveY", 0f);
-            }
+            Utils.LastInput(lastInputX, "LastMoveX", anim);
+            Utils.LastInput(lastInputY, "LastMoveY", anim);
+            direction = new Vector3(lastInputX, lastInputY, 0);
         }
         else
         {
@@ -91,7 +75,8 @@ public class IsometricPlayerController : MonoBehaviour
 
 
     }
-    private float JoystickInput(float axis) 
+
+    private float JoystickInput(float axis)
     {
         if (axis > .2f)
         {
@@ -103,19 +88,19 @@ public class IsometricPlayerController : MonoBehaviour
             //state = States.Move;
             return -1;
         }
-        else 
+        else
         {
             return 0;
         }
     }
-    public void Death() 
+    public void Death()
     {
         anim.SetBool("isDead", true);
-        
+
     }
-    public void Move() 
+    public void Move()
     {
-        
+
         Vector2 currentPos = rigidBody2D.position;
 
         float horizontalMove = JoystickInput(joystick.Horizontal);
@@ -124,12 +109,11 @@ public class IsometricPlayerController : MonoBehaviour
         anim.SetFloat("SpeedX", horizontalMove);
         anim.SetFloat("SpeedY", verticalMove);
 
-        
+
         moveVector = new Vector2(horizontalMove, verticalMove);
-        
-        //устанавливаю нужную анимацию по направлению движения.
-        animateMoves.SetDirection(moveVector, States.Move);
-        
+
+        //устанавливаю нужную анимацию по направлению движения
+
         moveVector = Vector2.ClampMagnitude(moveVector, 1);
         // Привожу к вектору длины один стобы при движении подиагонали скорость была такой же. 
 
@@ -139,9 +123,9 @@ public class IsometricPlayerController : MonoBehaviour
 
     }
 
-    public void Attack() 
+    public void Attack()
     {
-        anim.SetBool("Attack",true);
+        anim.SetBool("Attack", true);
         Invoke("SetAttackFalse", 0.9f);
         //RaycastHit2D hit = Physics2D.Raycast(transform.position, moveVector, attackRange);
         //GameObject enemy;
@@ -151,15 +135,52 @@ public class IsometricPlayerController : MonoBehaviour
             HealthSystem enemyHealthSystem = enemy.GetComponent<HealthSystem>();
             enemyHealthSystem.Damage(attackDamage);
         }*/
-        
+        GetEnemy(direction, 20, 5.0f, 5.0f);
+
+
     }
 
-    public void SetAttackFalse() 
+    public void SetAttackFalse()
     {
         anim.SetBool("Attack", false);
     }
-    public void animateAttack() 
+
+    public void RayVectors(Vector3 wayVector, int oddQuantity, float angle)
     {
-        animateMoves.SetDirection(moveVector, States.Attack);
+        rays = new Vector3[oddQuantity];
+        for (int i = 0; i < oddQuantity; i++)
+        {
+            rays[i] = wayVector.Rotate(angle * i - 90.0f);
+
+        }
+    }
+    public void GetEnemy(Vector3 wayVector, int oddQuantity, float angle, float distance)
+    {
+        RaycastHit2D hit;
+        GameObject enemy;
+        RayVectors(wayVector, oddQuantity, angle);
+        for (int i = 0; i < oddQuantity; i++)
+        {
+            hit = Physics2D.Raycast(transform.position, rays[i], distance);
+            if (hit.collider)
+            {
+                if (hit.collider.gameObject.tag == "Enemy") 
+                {
+                    enemy = hit.collider.gameObject;
+                    HealthSystem enemyHealthSystem = enemy.GetComponent<HealthSystem>();
+                    enemyHealthSystem.Damage(attackDamage);
+                    break;
+
+                }
+            }
+            
+
+                
+            
+        }
     }
 }
+
+
+
+
