@@ -11,7 +11,7 @@ public class AnimateMoves : MonoBehaviour
     private string[] walkDirections = { "Walk_N", "Walk_NW", "Walk_W", "Walk_SW", "Walk_S", "Walk_SE", "Walk_E", "Walk_NE" };
     private string[] attackDirections = { "Attack1_N", "Attack1_NW", "Attack1_W", "Attack1_SW", "Attack1_S", "Attack1_SE", "Attack1_E", "Attack1_NE" };
     private string[] deathDirections = { "Dead_N", "Dead_NW", "Dead_W", "Dead_SW", "Dead_S", "Dead_SE", "Dead_E", "Dead_NE" };
-    private bool isAttacked;
+    //private bool isAttacked;
     private Animator animator;
     public int lastDirection { get; set; }
     public Animator Animator 
@@ -32,7 +32,7 @@ public class AnimateMoves : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         lastDirection = 4;
-        isAttacked = false;
+        //isAttacked = false;
     }
 
 
@@ -55,7 +55,7 @@ public class AnimateMoves : MonoBehaviour
                 break;
             case States.Attack:
                 directionArray = attackDirections;
-                isAttacked = true;
+                //isAttacked = true;
                 break;
             case States.Dead:
                 directionArray = deathDirections;

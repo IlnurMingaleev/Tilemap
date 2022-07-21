@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class IsometricPlayerController : MonoBehaviour
 {
-    private Rigidbody2D rigidBody2D;
-    [SerializeField] private float _speed;
     [SerializeField] private Joystick joystick;
-    [SerializeField] private float attackRange;
-    [SerializeField] private int attackDamage;
-    private States state;
-    Vector2 moveVector;
+    
+    private Rigidbody2D rigidBody2D;
+    private CharacterStats stats;
     private Animator anim;
     private Vector3[] rays;
     private Vector3 direction;
@@ -18,8 +15,7 @@ public class IsometricPlayerController : MonoBehaviour
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
-        state = States.Idle;
-
+        stats = GetComponent<CharacterStats>();
         anim = GetComponent<Animator>();
     }
     // ”правл€ю игроком по вводу с джойстика.
@@ -38,8 +34,8 @@ public class IsometricPlayerController : MonoBehaviour
             verticalMove,
             0
             );
-        movement *= _speed;
-        movement = Vector3.ClampMagnitude(movement, _speed);
+        movement *= stats.Speed;
+        movement = Vector3.ClampMagnitude(movement, stats.Speed);
         movement *= Time.deltaTime;
 
         transform.Translate(movement);
@@ -98,44 +94,12 @@ public class IsometricPlayerController : MonoBehaviour
         anim.SetBool("isDead", true);
 
     }
-    public void Move()
-    {
-
-        Vector2 currentPos = rigidBody2D.position;
-
-        float horizontalMove = JoystickInput(joystick.Horizontal);
-        float verticalMove = JoystickInput(joystick.Vertical);
-
-        anim.SetFloat("SpeedX", horizontalMove);
-        anim.SetFloat("SpeedY", verticalMove);
-
-
-        moveVector = new Vector2(horizontalMove, verticalMove);
-
-        //устанавливаю нужную анимацию по направлению движени€
-
-        moveVector = Vector2.ClampMagnitude(moveVector, 1);
-        // ѕривожу к вектору длины один стобы при движении подиагонали скорость была такой же. 
-
-
-        Vector2 newPos = currentPos + moveVector;
-        rigidBody2D.MovePosition(newPos);
-
-    }
 
     public void Attack()
     {
         anim.SetBool("Attack", true);
-        Invoke("SetAttackFalse", 0.9f);
-        //RaycastHit2D hit = Physics2D.Raycast(transform.position, moveVector, attackRange);
-        //GameObject enemy;
-        /*if (hit.transform.gameObject.tag == "Enemy" && hit.transform != null) 
-        {
-            enemy = hit.transform.gameObject;
-            HealthSystem enemyHealthSystem = enemy.GetComponent<HealthSystem>();
-            enemyHealthSystem.Damage(attackDamage);
-        }*/
-        GetEnemy(direction, 20, 5.0f, 5.0f);
+        Invoke(nameof(SetAttackFalse), stats.AttackSpeed);
+        Raycast2Damage(direction, 20, 5.0f, stats.AttackRange);
 
 
     }
@@ -154,7 +118,7 @@ public class IsometricPlayerController : MonoBehaviour
 
         }
     }
-    public void GetEnemy(Vector3 wayVector, int oddQuantity, float angle, float distance)
+    public void Raycast2Damage(Vector3 wayVector, int oddQuantity, float angle, float distance)
     {
         RaycastHit2D hit;
         GameObject enemy;
@@ -168,7 +132,7 @@ public class IsometricPlayerController : MonoBehaviour
                 {
                     enemy = hit.collider.gameObject;
                     HealthSystem enemyHealthSystem = enemy.GetComponent<HealthSystem>();
-                    enemyHealthSystem.Damage(attackDamage);
+                    enemyHealthSystem.Damage(stats.Damage);
                     break;
 
                 }

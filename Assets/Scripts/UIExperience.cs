@@ -10,7 +10,9 @@ public class UIExperience : MonoBehaviour
     [SerializeField] private TextMeshProUGUI mainBarTextMesh;
 
     [SerializeField] private ProgressBar characterMenuBar;
-    [SerializeField] private TextMeshProUGUI characterMenuBarTextMesh;
+    [SerializeField] private TextMeshProUGUI expTextMesh;
+    [SerializeField] private TextMeshProUGUI expToNextLevelTextMesh;
+    [SerializeField] private TextMeshProUGUI levelTextMesh;
 
     private ExperienceSystem experienceSystem;
     // Start is called before the first frame update
@@ -19,16 +21,20 @@ public class UIExperience : MonoBehaviour
         experienceSystem = GetComponent<ExperienceSystem>();
     }
 
-    public void SetExperienceToUI(int minExp, int currentExp, int maxExp) 
+    public void SetExperienceToUI(ExperienceSystem experienceSystem) 
     {
-        mainBar.Minimum = minExp;
-        mainBar.Maximum = maxExp;
-        mainBar.Current = currentExp;
+        mainBar.Minimum = experienceSystem.GetMinExp();
+        mainBar.Maximum = experienceSystem.GetMaxExp();
+        mainBar.Current = experienceSystem.GetCurrentExp();
+        mainBarTextMesh.text = string.Format("{0}/{1}", experienceSystem.GetCurrentExp(), experienceSystem.GetMaxExp());
 
 
-        characterMenuBar.Minimum = minExp;
-        characterMenuBar.Maximum = maxExp;
-        characterMenuBar.Current = currentExp;
+        characterMenuBar.Minimum = experienceSystem.GetMinExp();
+        characterMenuBar.Maximum = experienceSystem.GetMaxExp();
+        characterMenuBar.Current = experienceSystem.GetCurrentExp();
+        expTextMesh.text = string.Format("XP:{0}", experienceSystem.GetCurrentExp());
+        expToNextLevelTextMesh.text = string.Format("Next level in: {0}", experienceSystem.GetExpToNextLevel());
+        levelTextMesh.text = string.Format("LEVEL: {0}", experienceSystem.GetLevel());
 
 
     }

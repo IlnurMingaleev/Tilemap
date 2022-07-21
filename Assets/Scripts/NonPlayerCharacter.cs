@@ -10,14 +10,6 @@ public abstract class NonPlayerCharacter : MonoBehaviour
 {
     [SerializeField] private Vector3 spawnLocation;
     [SerializeField] private float allowedRange;
-    [SerializeField] private float _speed;
-    public float Speed 
-    {
-        get 
-        {
-            return _speed;
-        }
-    }
     // Объявил свойства так как использую их в классе наследнике.
     // Стараюсь не использовать публичные поля
     // Но пока не знаю как получать доступ к приватным полям кроме как использую геттеры и сеттеры.

@@ -21,28 +21,54 @@ public class ExperienceSystem : MonoBehaviour
         currentExp = minExp;
         expToNextLevel = maxExp - currentExp;
         uiExp = GetComponent<UIExperience>();
+        uiExp.SetExperienceToUI(this);
+        
+    }
+    public int GetCurrentExp()
+    {
+        return currentExp;
+    }
+
+    public int GetMaxExp()
+    {
+        return maxExp;
+    }
+    public int GetExpToNextLevel()
+    {
+        return expToNextLevel;
+    }
+    public int GetLevel()
+    {
+        return level;
+    }
+    public int GetMinExp()
+    {
+        return minExp;
     }
 
 
-    public void Add(int expAmount) 
+    public void AddExperience(int expAmount) 
     {
-        if (expAmount <= 0) 
+        if (expToNextLevel > expAmount)
         {
-            if (expToNextLevel > expAmount)
+            currentExp += expAmount;
+            expToNextLevel -= expAmount;
+        }
+        else
+        {
+            level++;
+            minExp = maxExp;
+            currentExp = maxExp;
+            maxExp = levelExp[level];
+            expAmount -= expToNextLevel;
+            expToNextLevel = maxExp - minExp;
+
+            if (expAmount > 0)
             {
-                currentExp += expAmount;
-                expToNextLevel -= expAmount;
-            }
-            else
-            {
-                level++;
-                minExp = maxExp;
-                maxExp = levelExp[level];
-                expAmount -= expToNextLevel;
-                expToNextLevel = maxExp - minExp;
-                Add(expAmount);
+                AddExperience(expAmount);
             }
         }
+        uiExp.SetExperienceToUI(this);
         
     }
     // Update is called once per frame

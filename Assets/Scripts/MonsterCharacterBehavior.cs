@@ -6,20 +6,17 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 {
     [SerializeField] private GameObject messageBox;
     [SerializeField] private GameObject player;
-    [SerializeField] private float attackRange;
-    [SerializeField] private float attackspeed;
-    [SerializeField] private int expAmount;
+    [SerializeField] private GameObject goldToDrop;
 
 
     private MonsterCharacterBehavior monster;
     private CircleCollider2D circleCollider2D;
-    private UIController uiController;
-    private bool isIdle;
     private State state;
     private HealthSystem playerHealthSystem;
     private ExperienceSystem playerExperienceSystem;
     private float canAttack;
     private Animator animator;
+    private MonsterCharacterStats stats;
 
     
     public enum State 
@@ -42,6 +39,8 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         state = State.Wander;
         playerHealthSystem = player.GetComponent<HealthSystem>();
         animator = GetComponent<Animator>();
+        stats = GetComponent<MonsterCharacterStats>();
+        canAttack = 0;
     }
     // Метод осуществляет случайное перемещение по вейпоинтам
     // IsIdle осуществляет переключение анимации при появлении сообщения, 
@@ -72,7 +71,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             animator.SetBool("walking", false);
         }
         // Определяю вектор на который нужно ориентировать анимацию
-       transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * monster.Speed);
+       transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * stats.Speed);
     }
 
     
@@ -102,26 +101,17 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.gameObject.tag == "Player" && state != State.Dead)
+        if (collision.gameObject.CompareTag("Player") && state != State.Dead)
         {
             state = State.Chase;
             //Debug.Log("collision happened");
         }
-        /*isIdle = true;
-        string monstrTriggerMessage = "Монстр отреагировал на появление игрока.";
-        
-        messageBox.SetActive(true);
-        uiController = messageBox.GetComponent<UIController>();
-        uiController.SetMonstrTriggerMessage(messageBox, monstrTriggerMessage, 2.0f);
-
-
-        Debug.Log(monstrTriggerMessage);*/
         
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && state != State.Dead)
+        if (collision.gameObject.CompareTag("Player") && state != State.Dead)
         {
             state = State.Wander;
             //Debug.Log("collision ended");
@@ -132,7 +122,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
     private void FindTarget() 
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * monster.Speed);
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * stats.Speed);
         WayVector = player.transform.position-transform.position;
         float movementX = Vector3.Project(WayVector, Vector3.right).x;
         float movementY = Vector3.Project(WayVector, Vector3.up).y;
@@ -149,7 +139,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         
         
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        if (distance <= attackRange)
+        if (distance <= stats.AttackRange)
         {
             state = State.Attack;
         }
@@ -159,17 +149,17 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private void Attack() 
     {
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        if (distance > attackRange)
+        if (distance > stats.AttackRange)
         {
             state = State.Chase;
         }
         else 
         {
             animator.SetBool("attacking", true);
-            Invoke("SetAttackFalse", 0.9f);
-            if (attackspeed <= canAttack)
+            Invoke(nameof(SetAttackFalse), 0.9f);
+            if (stats.AttackSpeed <= canAttack)
             {
-                playerHealthSystem.Damage(10);
+                playerHealthSystem.Damage(stats.Damage);
                 canAttack = 0;
             }
             else
@@ -193,8 +183,11 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     {
         animator.SetBool("isDead", true);
         state = State.Dead;
-        Invoke("DeactivateEnemy", 2.0f);
-
+        Invoke(nameof(DeactivateEnemy), 2.0f);
+        playerExperienceSystem.AddExperience(stats.ExpAmount);
+        Vector3 lastPosition = transform.position;
+        Destroy(gameObject);
+        Instantiate(goldToDrop, lastPosition, Quaternion.identity);
         //isDead = true;
     }
 
