@@ -22,9 +22,6 @@ public class IsometricPlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         inventory = new Inventory();
         uiInventory.SetInventory(inventory);
-        ItemWorld.SpawnItemWorld(new Vector3(0, -1), new Item { itemType = Item.ItemType.Sword, amount = 1 });
-        ItemWorld.SpawnItemWorld(new Vector3(0, -2), new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
-        ItemWorld.SpawnItemWorld(new Vector3(1, -2), new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
     }
     // ”правл€ю игроком по вводу с джойстика.
     // Update is called once per frame

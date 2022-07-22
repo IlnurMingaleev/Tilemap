@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class Item {
 
     public enum ItemType {
@@ -24,4 +25,17 @@ public class Item {
         }
     }
 
+    public bool IsStackable() 
+    {
+        switch (itemType) 
+        {
+            default:
+            case ItemType.HealthPotion:
+            case ItemType.ManaPotion:
+                return true;
+            case ItemType.Sword:
+                return false;
+        
+        }
+    }
 }
