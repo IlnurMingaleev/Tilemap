@@ -5,18 +5,26 @@ using UnityEngine;
 public class IsometricPlayerController : MonoBehaviour
 {
     [SerializeField] private Joystick joystick;
+    [SerializeField] private UI_Inventory uiInventory;
     
     private Rigidbody2D rigidBody2D;
     private CharacterStats stats;
     private Animator anim;
     private Vector3[] rays;
     private Vector3 direction;
+    private Inventory inventory;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
         stats = GetComponent<CharacterStats>();
         anim = GetComponent<Animator>();
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+        ItemWorld.SpawnItemWorld(new Vector3(0, -1), new Item { itemType = Item.ItemType.Sword, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(0, -2), new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(1, -2), new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
     }
     // ”правл€ю игроком по вводу с джойстика.
     // Update is called once per frame
@@ -87,6 +95,15 @@ public class IsometricPlayerController : MonoBehaviour
         else
         {
             return 0;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        ItemWorld itemWorld = collision.GetComponent<ItemWorld>();
+        if (itemWorld != null) 
+        {
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
         }
     }
     public void Death()
