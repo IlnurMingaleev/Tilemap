@@ -20,8 +20,35 @@ public class IsometricPlayerController : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         stats = GetComponent<CharacterStats>();
         anim = GetComponent<Animator>();
-        inventory = new Inventory();
+        inventory = new Inventory(UseItem);
         uiInventory.SetInventory(inventory);
+        uiInventory.SetPlayer(this);
+    }
+    private void UseItem(Item item) 
+    {
+        switch (item.itemType) 
+        {
+            case Item.ItemType.HealthPotion:
+                Debug.Log("Health Potion is used");
+                inventory.RemoveItem(new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
+                break;
+            case Item.ItemType.ManaPotion:
+                Debug.Log("Mana Potion is used");
+                inventory.RemoveItem(new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
+                break;
+            case Item.ItemType.Sword:
+                Debug.Log("Sword can only be equipped");
+                break;
+        }
+    }
+    public Vector3 GetPosition() 
+    {
+        return gameObject.transform.position;
+    }
+
+    public Vector3 GetDirecton() 
+    {
+        return direction;
     }
     // ”правл€ю игроком по вводу с джойстика.
     // Update is called once per frame

@@ -5,6 +5,9 @@ using TMPro;
 
 public class ItemWorld : MonoBehaviour {
 
+    private Item item;
+    private SpriteRenderer spriteRenderer;
+    private TextMeshProUGUI textMeshPro;
     public static ItemWorld SpawnItemWorld(Vector3 position, Item item) {
         Transform transform = Instantiate(ItemAssets.Instance.pfItemWorld, position, Quaternion.identity);
 
@@ -13,19 +16,31 @@ public class ItemWorld : MonoBehaviour {
 
         return itemWorld;
     }
+    
+    public static ItemWorld DropItem(Vector3 dropPosition, Vector3 dropDirection,Item item) 
+    {
+        ItemWorld itemWorld = SpawnItemWorld(dropPosition + dropDirection.normalized, item);
+        return itemWorld;
+    }
 
-
-
-    private Item item;
-    private SpriteRenderer spriteRenderer;
+   
 
     private void Awake() {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        textMeshPro = transform.Find("Canvas").Find("Amount").GetComponent<TextMeshProUGUI>();
     }
 
     public void SetItem(Item item) {
         this.item = item;
         spriteRenderer.sprite = item.GetSprite();
+        if (item.amount > 1)
+        {
+            textMeshPro.SetText(item.amount.ToString());
+        }
+        else 
+        {
+            textMeshPro.SetText("");
+        }
     }
 
     public Item GetItem() {
