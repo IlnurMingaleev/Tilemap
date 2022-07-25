@@ -6,13 +6,27 @@ public class IsometricPlayerController : MonoBehaviour
 {
     [SerializeField] private Joystick joystick;
     [SerializeField] private UI_Inventory uiInventory;
-    
+
     private Rigidbody2D rigidBody2D;
     private CharacterStats stats;
     private Animator anim;
     private Vector3[] rays;
     private Vector3 direction;
     private Inventory inventory;
+    private Quest quest;
+
+    public Quest Quest 
+    {
+        get 
+        {
+            return quest;
+        }
+
+        set 
+        {
+            quest = value;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -56,7 +70,7 @@ public class IsometricPlayerController : MonoBehaviour
     {
         float horizontalMove = JoystickInput(joystick.Horizontal);
         float verticalMove = JoystickInput(joystick.Vertical);
-
+        if (Mathf.Abs(horizontalMove) + Mathf.Abs(verticalMove) < float.Epsilon) return;
 
         anim.SetFloat("SpeedX", horizontalMove);
         anim.SetFloat("SpeedY", verticalMove);

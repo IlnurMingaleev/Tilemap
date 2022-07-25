@@ -307,7 +307,7 @@ Transform:
   m_Children:
   - {fileID: 6269433836152908754}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &6269433836081553559
 Rigidbody2D:
@@ -418,7 +418,6 @@ MonoBehaviour:
   allowedRange: 1
   messageBox: {fileID: 0}
   player: {fileID: 0}
-  expAmount: 550
   goldToDrop: {fileID: 6571632482720064934, guid: 6ed2b43e6a448f54caebdfe5ad72fbe3, type: 3}
 --- !u!58 &6269433836081553557
 CircleCollider2D:
@@ -509,7 +508,7 @@ MonoBehaviour:
   speed: 0.5
   attackRange: 0.5
   attackSpeed: 1
-  expAmount: 50
+  expAmount: 70
 --- !u!1 &6269433836152908753
 GameObject:
   m_ObjectHideFlags: 0

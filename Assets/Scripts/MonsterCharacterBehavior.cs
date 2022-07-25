@@ -7,8 +7,9 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     [SerializeField] private GameObject messageBox;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject goldToDrop;
-
-
+    
+    
+    private IsometricPlayerController playerController;
     private MonsterCharacterBehavior monster;
     private CircleCollider2D circleCollider2D;
     private State state;
@@ -17,6 +18,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private float canAttack;
     private Animator animator;
     private MonsterCharacterStats stats;
+    private Wallet playerWallet;
 
     
     public enum State 
@@ -29,7 +31,10 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     //Инициализируем поля
     void Start()
     {
+        playerController = player.GetComponent<IsometricPlayerController>();
         playerExperienceSystem = player.GetComponent<ExperienceSystem>();
+        playerHealthSystem = player.GetComponent<HealthSystem>();
+        playerWallet = player.GetComponent<Wallet>();
         RigidBody2D = GetComponent<Rigidbody2D>();
         monster = GetComponent<MonsterCharacterBehavior>();
         circleCollider2D = GetComponent<CircleCollider2D>();
@@ -37,7 +42,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         monster.WPradius = 0.3f;
         monster.IsGenerated = true;
         state = State.Wander;
-        playerHealthSystem = player.GetComponent<HealthSystem>();
+        
         animator = GetComponent<Animator>();
         stats = GetComponent<MonsterCharacterStats>();
         canAttack = 0;
@@ -188,6 +193,16 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         Vector3 lastPosition = transform.position;
         Destroy(gameObject);
         Instantiate(goldToDrop, lastPosition, Quaternion.identity);
+        if (playerController.Quest != null &&  playerController.Quest.IsActive) 
+        {
+            playerController.Quest.QuestGoal.EnemyKilled();
+            if (playerController.Quest.QuestGoal.IsReached()) 
+            {
+                playerExperienceSystem.AddExperience(playerController.Quest.ExpReward);
+                playerWallet.AddGold(playerController.Quest.GoldReward);
+                playerController.Quest.Complete();
+            }
+        }
         //isDead = true;
     }
 
