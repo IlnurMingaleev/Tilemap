@@ -20,6 +20,7 @@ public class Inventory {
     }
 
     public void AddItem(Item item) {
+        SoundManager.PlayAudioClip(SoundManager.Sound.playerPickUp);
         if (item.IsStackable())
         {
             bool itemAlreadyInInventory = false;

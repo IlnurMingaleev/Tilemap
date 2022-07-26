@@ -37,17 +37,19 @@ public class IsometricPlayerController : MonoBehaviour
         inventory = new Inventory(UseItem);
         uiInventory.SetInventory(inventory);
         uiInventory.SetPlayer(this);
-    }
+    }   
     private void UseItem(Item item) 
     {
         switch (item.itemType) 
         {
             case Item.ItemType.HealthPotion:
                 Debug.Log("Health Potion is used");
+                SoundManager.PlayAudioClip(SoundManager.Sound.playerUseBottle);
                 inventory.RemoveItem(new Item { itemType = Item.ItemType.HealthPotion, amount = 1 });
                 break;
             case Item.ItemType.ManaPotion:
                 Debug.Log("Mana Potion is used");
+                SoundManager.PlayAudioClip(SoundManager.Sound.playerUseBottle);
                 inventory.RemoveItem(new Item { itemType = Item.ItemType.ManaPotion, amount = 1 });
                 break;
             case Item.ItemType.Sword:
@@ -64,35 +66,44 @@ public class IsometricPlayerController : MonoBehaviour
     {
         return direction;
     }
-    // ”правл€ю игроком по вводу с джойстика.
-    // Update is called once per frame
+    
+    // Update is called once per frame.
+    // Here we control player character from Joystick input.
     void Update()
     {
         float horizontalMove = JoystickInput(joystick.Horizontal);
         float verticalMove = JoystickInput(joystick.Vertical);
         if (Mathf.Abs(horizontalMove) + Mathf.Abs(verticalMove) < float.Epsilon) return;
-
-        anim.SetFloat("SpeedX", horizontalMove);
-        anim.SetFloat("SpeedY", verticalMove);
-
-        Vector3 movement = new Vector3(
-            horizontalMove,
-            verticalMove,
-            0
-            );
-        movement *= stats.Speed;
-        movement = Vector3.ClampMagnitude(movement, stats.Speed);
-        movement *= Time.deltaTime;
-
-        transform.Translate(movement);
-        if (rays != null)
+        else 
         {
-            foreach (Vector3 ray in rays)
+            anim.SetFloat("SpeedX", horizontalMove);
+            anim.SetFloat("SpeedY", verticalMove);
+
+            Vector3 movement = new Vector3(
+                horizontalMove,
+                verticalMove,
+                0
+                );
+            movement *= stats.Speed;
+            movement = Vector3.ClampMagnitude(movement, stats.Speed);
+            movement *= Time.deltaTime;
+
+            SoundManager.PlayAudioClip(SoundManager.Sound.playerMove, GetPosition());
+            transform.Translate(movement);
+            if (rays != null)
             {
-                Debug.DrawRay(transform.position, ray, Color.red);
+                foreach (Vector3 ray in rays)
+                {
+                    Debug.DrawRay(transform.position, ray, Color.red);
+                }
             }
+
         }
+
+        
     }
+
+    // Here we retrieve lastDirection of player character.
     void FixedUpdate()
     {
         float lastInputX = JoystickInput(joystick.Horizontal);
@@ -153,6 +164,7 @@ public class IsometricPlayerController : MonoBehaviour
     public void Attack()
     {
         anim.SetBool("Attack", true);
+        SoundManager.PlayAudioClip(SoundManager.Sound.playerAttack);
         Invoke(nameof(SetAttackFalse), stats.AttackSpeed);
         Raycast2Damage(direction, 20, 5.0f, stats.AttackRange);
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class MonsterCharacterBehavior : NonPlayerCharacter
 {
@@ -19,8 +20,10 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     private Animator animator;
     private MonsterCharacterStats stats;
     private Wallet playerWallet;
+    public event EventHandler OnIsInBattle_True;
+    public event EventHandler OnIsInBattle_False;
 
-    
+
     public enum State 
     {
         Wander,
@@ -42,10 +45,10 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
         monster.WPradius = 0.3f;
         monster.IsGenerated = true;
         state = State.Wander;
-        
         animator = GetComponent<Animator>();
         stats = GetComponent<MonsterCharacterStats>();
         canAttack = 0;
+
     }
     // Метод осуществляет случайное перемещение по вейпоинтам
     // IsIdle осуществляет переключение анимации при появлении сообщения, 
@@ -79,7 +82,11 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
        transform.position = Vector2.MoveTowards(transform.position, WayPoint, Time.deltaTime * stats.Speed);
     }
 
-    
+
+    public Vector3 GetPosition() 
+    {
+        return gameObject.transform.position;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -98,6 +105,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             case State.Dead:
                 break;
         }
+        
     
         //monster.RandomMove();
         
@@ -108,16 +116,19 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
         if (collision.gameObject.CompareTag("Player") && state != State.Dead)
         {
+            OnIsInBattle_True?.Invoke(this, EventArgs.Empty);
             state = State.Chase;
             //Debug.Log("collision happened");
         }
         
     }
 
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && state != State.Dead)
         {
+            OnIsInBattle_False?.Invoke(this, EventArgs.Empty);
             state = State.Wander;
             //Debug.Log("collision ended");
         }
@@ -153,6 +164,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
 
     private void Attack() 
     {
+
         float distance = Vector2.Distance(transform.position, player.transform.position);
         if (distance > stats.AttackRange)
         {
@@ -165,6 +177,7 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
             if (stats.AttackSpeed <= canAttack)
             {
                 playerHealthSystem.Damage(stats.Damage);
+                SoundManager.PlayAudioClip(SoundManager.Sound.monsterAttack);
                 canAttack = 0;
             }
             else
@@ -186,6 +199,11 @@ public class MonsterCharacterBehavior : NonPlayerCharacter
     }
     public void Death() 
     {
+        
+        OnIsInBattle_False?.Invoke(this, EventArgs.Empty);
+            
+        
+        
         animator.SetBool("isDead", true);
         state = State.Dead;
         Invoke(nameof(DeactivateEnemy), 2.0f);

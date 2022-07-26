@@ -22,6 +22,8 @@ public abstract class NonPlayerCharacter : MonoBehaviour
     public bool IsGenerated { get; set; }
     public float WPradius { get; set; }
 
+    public static bool isInBattle { get; set; }
+
 
     //
     // Создаем случайную точку в полярных координатах и переводим точку в декартову систему координат

@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Class to introduce items in game
 [Serializable]
+
 public class Item {
 
     public enum ItemType {
@@ -15,7 +17,7 @@ public class Item {
     public ItemType itemType;
     public int amount;
 
-
+    //Here we get sprites for each type of item.
     public Sprite GetSprite() {
         switch (itemType) {
         default:
@@ -25,6 +27,7 @@ public class Item {
         }
     }
 
+    // Here we get if item is stackable depending on its type.
     public bool IsStackable() 
     {
         switch (itemType) 
