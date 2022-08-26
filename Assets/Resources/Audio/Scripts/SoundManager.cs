@@ -65,7 +65,7 @@ public static class SoundManager
             if(oneShotGameObject == null) {
                 oneShotGameObject = new GameObject();
                 oneShotAudioSource = oneShotGameObject.AddComponent<AudioSource>();
-                oneShotAudioSource.volume = 0.1f;
+                oneShotAudioSource.volume = 1f;
 
             }
             
@@ -86,7 +86,7 @@ public static class SoundManager
             audioSource.spatialBlend = 1f;
             audioSource.rolloffMode = AudioRolloffMode.Linear;
             audioSource.dopplerLevel = 0f;
-            audioSource.volume = 0.1f;
+            audioSource.volume = 1f;
             audioSource.Play();
             Object.Destroy(soundGameObject, audioSource.clip.length);
         }
